@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: azure;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color:rgb(70, 65, 65) ;
+    cursor: pointer;
+}
+li:hover{
+color:azure ;
+
+}
+.image{
+    padding: 50px;
+
+}
+.box{
+    border-color: black ;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 500px;
+}
+.box:hover{
+    background-color: rgb(43, 42, 40);
+    color: azure;
+}
+img{
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px; ;
+}
+.contact{
+    background-color: rgb(1, 14, 14);
+    color: azure;
+    text-align: center;
+    padding: 30px;
+}
